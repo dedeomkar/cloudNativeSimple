@@ -15,7 +15,7 @@ spec:
         name: simple
     spec:
       containers:
-      - image: localhost:5000/simple:v3
+      - image: cloudnativeacr01.azurecr.io/simple:v2
         name: simple
         ports:
         - containerPort: 80
