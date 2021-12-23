@@ -29,7 +29,7 @@ jobs:
         login-server: cloudnativeacr01.azurecr.io
         
     - name: Push Image  
-      run: docker push cloudnativeacr01.azurecr.io/simple:v2:v2
+      run: docker push cloudnativeacr01.azurecr.io/simple:v2
       
       
             
